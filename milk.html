@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk Management System</title>
+    <link rel="stylesheet" href="milk.css">
+</head>
+<body>
+    <header>
+        <h1>Milk Management System</h1>
+    </header>
+    
+    <div class="container">
+        <section id="inventory">
+            <h2>Inventory Management</h2>
+            <ul id="inventory-list">
+                <!-- Inventory items will be dynamically added here -->
+            </ul>
+            <button onclick="addProduct()">Add Product</button>
+        </section>
+        
+        <section id="customers">
+            <h2>Customer Management</h2>
+            <ul id="customer-list">
+                <!-- Customer list will be dynamically added here -->
+            </ul>
+            <button onclick="addCustomer()">Add Customer</button>
+        </section>
+        
+        <section id="billing">
+            <h2>Billing</h2>
+            <form id="billing-form">
+                <!-- Billing form will be dynamically generated here -->
+            </form>
+            <button onclick="generateBill()">Generate Bill</button>
+        </section>
+    </div>
+    
+    <script src="milk.js"></script>
+</body>
+</html>
